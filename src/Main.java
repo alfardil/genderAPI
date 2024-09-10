@@ -16,7 +16,8 @@ public class Main {
         // make the ui and stuff
         frame = new JFrame("Name to Gender");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(800, 600);
+        frame.setSize(800, 400);
+        frame.setLocationRelativeTo(null);
         frame.setLayout(new GridLayout(2, 2));
 
         frame.add(new JLabel("Name", SwingConstants.CENTER));
