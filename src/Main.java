@@ -72,7 +72,7 @@ public class Main {
                             "<html><style> p{text-align: center;}</style><p>Results<p>" + "<br>Name: " + name
                                     + "<br>Gender: " + gender
                                     + "<br>Probability: "
-                                    + (probability * 100) + "</html>");
+                                    + (probability * 100) + "%</html>");
 
                 } catch (Exception a) {
                     a.printStackTrace();
